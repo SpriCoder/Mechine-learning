@@ -1,2 +1,2 @@
-# Machine-learning
+# Mechine-learning
 机器学习相关
