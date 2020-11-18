@@ -2,7 +2,7 @@ GPU
 ---
 1. 本文记录了部分和GPU配置和使用过程中的问题。
   
-# GPU内存不够
+# 1. GPU内存不够
 > “Failed to get convolution algorithm. This is probably because cuDNN failed to initialize”错误的解决办法
 > TF:2.0+
 
@@ -26,4 +26,4 @@ config.gpu_options.per_process_gpu_memory_fraction = 0.3
 tf.compat.v1.keras.backend.set_session(tf.compat.v1.Session(config=config))
 ```
 
-3. <a href = "https://blog.csdn.net/tsyccnh/article/details/102938368">参考</a>
+3. <a href = "https://blog.csdn.net/tsyccnh/article/details/102938368">“Failed to get convolution algorithm. This is probably because cuDNN failed to initialize”错误的解决办法</a>
