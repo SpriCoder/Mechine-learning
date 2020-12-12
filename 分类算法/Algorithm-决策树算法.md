@@ -425,3 +425,8 @@ $C_a(T_i)=C(T_t) +\alpha|T_t|$
    5. 最优子树集合$w=w \cup T_k，M = M - {a_k}$
    6. 如果M不为空，则回到步骤4，否则就已经得到了所有的可选最优子树集合w
    7. 采用交叉验证在w选择最优子树$T_a$
+
+# 4. 参考
+1. <a href = "https://www.cnblogs.com/keye/p/10267473.html">决策树算法原理(ID3，C4.5)</a>
+2. <a href = "https://www.cnblogs.com/lovephysics/p/7231294.html">决策树(ID3 )原理及实现</a>
+3. <a href = "https://www.cnblogs.com/keye/p/10564914.html">决策树算法原理(CART分类树)</a>
