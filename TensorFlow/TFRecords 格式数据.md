@@ -9,7 +9,7 @@ TFRecord格式数据
 
 ## 1.1. 写入方式
 1. 我们可以将获取到的数据，填写到Example协议内存块(protocol buffer)，将协议内存块化为一个字符串，并且通过tf.python_io.TFRecordWriter写入到TFRecords文件。
-2. 基本的，一个Example中包含Features，Features里包含Feature（这里没s）的字典。最后，Feature里包含有一个 FloatList， 或者ByteList，或者Int64List
+2. 基本的，一个Example中包含Features，Features里包含Feature(这里没s)的字典。最后，Feature里包含有一个 FloatList， 或者ByteList，或者Int64List
 
 ## 1.2. Python实现
 ```py
@@ -37,7 +37,7 @@ coord.request_stop()
 coord.join(threads)
 image_label = b'\x01'
 # Assume the label data is in a one-hot representation (00000001)
-# 假设标签数据位于一个独热的（one-hot）编码表示中，(00000001) 二进制8位'x01'
+# 假设标签数据位于一个独热的(one-hot)编码表示中，(00000001) 二进制8位'x01'
 # Convert the tensor into bytes, notice that this will load the entire image file
 # 将张量转换为字节型，注意这会加载整个图像文件。
 image_loaded = sess.run(image)

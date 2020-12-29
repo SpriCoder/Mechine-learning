@@ -8,7 +8,7 @@ word embedding
 
 ## 1.2. Distributed representation
 1. 单词彼此无关不符合我们的现实情况。
-2. 在语义(girl&women)、复数(word&words)、时态（buy&bought)等方面没有被考虑到
+2. 在语义(girl&women)、复数(word&words)、时态(buy&bought)等方面没有被考虑到
 
 ### 1.2.1. Distributed representation的目的
 1. 在数据量角度，机器学习就是从有限的例子中找到合理的f

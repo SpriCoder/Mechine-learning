@@ -20,4 +20,4 @@
 1. 如果岭回归无法提出变量，那么LASSO回归模型，将惩罚项变为L1范数
 
 # 4. 参考
-1. <a href = "https://blog.csdn.net/weixin_43374551/article/details/83688913">机器学习十大经典算法之岭回归和LASSO回归（学习笔记整理）</a>
+1. <a href = "https://blog.csdn.net/weixin_43374551/article/details/83688913">机器学习十大经典算法之岭回归和LASSO回归(学习笔记整理)</a>

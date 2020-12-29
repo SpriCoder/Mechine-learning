@@ -10,4 +10,4 @@ Tensorflow Tensorboard
 
 # 3. 参考
 1. <a href = "https://blog.csdn.net/jinlong_xu/article/details/71124589">【TensorBoard】如何启动tensorboard的详尽步骤</a>
-2. <a href = "https://www.cnblogs.com/fydeblog/p/7429344.html">tensorflow笔记（三）之 tensorboard的使用</a>
+2. <a href = "https://www.cnblogs.com/fydeblog/p/7429344.html">tensorflow笔记(三)之 tensorboard的使用</a>

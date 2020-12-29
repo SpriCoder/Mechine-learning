@@ -49,4 +49,4 @@
 3. 对于一个二分类问题，我们要算1次，而对于n分类的问题，我们要计算n次。
 
 # 5. 参考
-1. <a href = "https://blog.csdn.net/guoziqing506/article/details/81328402">逻辑回归（logistic regression）原理详解</a>
+1. <a href = "https://blog.csdn.net/guoziqing506/article/details/81328402">逻辑回归(logistic regression)原理详解</a>

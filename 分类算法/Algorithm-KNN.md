@@ -71,8 +71,8 @@ $$
 # 3. KNeighborsClassifier函数
 `sklearn.neighbors.KNeighborsClassifier(n_neighbors=5, weights=’uniform’, algorithm=’auto’, leaf_size=30, p=2, metric=’minkowski’, metric_params=None, n_jobs=None, **kwargs)`
 1. n_neighbors:临近的节点数量，默认值是5
-   1. K值较小，就相当于用较小的领域中的训练实例进行预测，训练误差近似误差小（偏差小），泛化误差会增大（方差大），换句话说，K值较小就意味着整体模型变得复杂，容易发生过拟合；
-   2. K值较大，就相当于用较大领域中的训练实例进行预测，泛化误差小（方差小），但缺点是近似误差大（偏差大），换句话说，K值较大就意味着整体模型变得简单，容易发生欠拟合；一个极端是K等于样本数m，则完全没有分类，此时无论输入实例是什么，都只是简单的预测它属于在训练实例中最多的类，模型过于简单。
+   1. K值较小，就相当于用较小的领域中的训练实例进行预测，训练误差近似误差小(偏差小)，泛化误差会增大(方差大)，换句话说，K值较小就意味着整体模型变得复杂，容易发生过拟合；
+   2. K值较大，就相当于用较大领域中的训练实例进行预测，泛化误差小(方差小)，但缺点是近似误差大(偏差大)，换句话说，K值较大就意味着整体模型变得简单，容易发生欠拟合；一个极端是K等于样本数m，则完全没有分类，此时无论输入实例是什么，都只是简单的预测它属于在训练实例中最多的类，模型过于简单。
 2. weights:权重，默认值是uniform，最普遍的KNN算法是无论距离如何权重都是一样的，有如下三种选择
    1. uniform：表示每个数据点的权重是相同的；
    2. distance：离一个簇中心越近的点，权重越高；
@@ -273,6 +273,6 @@ plt.show()
 # 6. 参考
 1. <a href = "https://www.cnblogs.com/ljhdo/p/10600613.html">sklearn学习</a>
 2. <a href = "https://blog.csdn.net/qq_40195360/article/details/86714337">【实现思路好】KNN 原理及参数总结</a>
-3. <a href = "https://blog.csdn.net/sinat_30353259/article/details/80901746">机器学习之KNN（k近邻）算法详解</a>
+3. <a href = "https://blog.csdn.net/sinat_30353259/article/details/80901746">机器学习之KNN(k近邻)算法详解</a>
 4. <a href = "https://www.cnblogs.com/shenxiaolin/p/8854838.html">Sklearn实现鸢尾花数据集</a>
-5. <a href = "https://www.cnblogs.com/listenfwind/p/10685192.html">深入浅出KNN算法（二） sklearn KNN实践</a>
+5. <a href = "https://www.cnblogs.com/listenfwind/p/10685192.html">深入浅出KNN算法(二) sklearn KNN实践</a>

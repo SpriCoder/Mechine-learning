@@ -49,4 +49,4 @@ CUDA和cuDNN的安装
 # 5. 参考
 1. <a href = "https://blog.csdn.net/qq_39797713/article/details/103947951">查看电脑合适的CUDA和cuDNN版本</a>
 2. <a href = "https://blog.csdn.net/sinat_23619409/article/details/84202651">cuda安装教程+cudnn安装教程</a>
-3. <a href = "https://blog.csdn.net/u011473714/article/details/95042856">win10下CUDA和CUDNN的安装（超详细）！亲测有效！</a>
+3. <a href = "https://blog.csdn.net/u011473714/article/details/95042856">win10下CUDA和CUDNN的安装(超详细)！亲测有效！</a>
